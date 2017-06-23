@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2245121EEA54AE00594F57 /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2245111EEA54AE00594F57 /* UIImage+PixelBuffer.swift */; };
+		6E6E72981EE915B500A7ABA5 /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6E72971EE915B500A7ABA5 /* f.png */; };
+		6E7C58541EFCA82100935266 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C58531EFCA81A00935266 /* Resnet50.mlmodel */; };
 		6EBAA4051EE7E87A00898286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAA4041EE7E87A00898286 /* AppDelegate.swift */; };
 		6EBAA4071EE7E87A00898286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAA4061EE7E87A00898286 /* ViewController.swift */; };
 		6EBAA40A1EE7E87A00898286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBAA4081EE7E87A00898286 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E2245111EEA54AE00594F57 /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
+		6E6E72971EE915B500A7ABA5 /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f.png; path = ../../../Desktop/f.png; sourceTree = "<group>"; };
+		6E7C58531EFCA81A00935266 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		6EBAA4011EE7E87A00898286 /* ML-ResNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-ResNet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBAA4041EE7E87A00898286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EBAA4061EE7E87A00898286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 		6EBAA4201EE7E87B00898286 /* ML-ResNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ML-ResNetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBAA4241EE7E87B00898286 /* ML_ResNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_ResNetUITests.swift; sourceTree = "<group>"; };
 		6EBAA4261EE7E87B00898286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBAA4361EE7F79D00898286 /* ML-ResNet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ML-ResNet-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +106,14 @@
 			children = (
 				6EBAA4041EE7E87A00898286 /* AppDelegate.swift */,
 				6EBAA4061EE7E87A00898286 /* ViewController.swift */,
+				6E2245111EEA54AE00594F57 /* UIImage+PixelBuffer.swift */,
+				6E6E72971EE915B500A7ABA5 /* f.png */,
 				6EBAA4081EE7E87A00898286 /* Main.storyboard */,
 				6EBAA40B1EE7E87A00898286 /* Assets.xcassets */,
 				6EBAA40D1EE7E87A00898286 /* LaunchScreen.storyboard */,
 				6EBAA4101EE7E87A00898286 /* Info.plist */,
+				6EBAA4361EE7F79D00898286 /* ML-ResNet-Bridging-Header.h */,
+				6E7C58531EFCA81A00935266 /* Resnet50.mlmodel */,
 			);
 			path = "ML-ResNet";
 			sourceTree = "<group>";
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					6EBAA4001EE7E87A00898286 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 					6EBAA4141EE7E87B00898286 = {
 						CreatedOnToolsVersion = 9.0;
@@ -232,6 +244,7 @@
 				6EBAA40F1EE7E87A00898286 /* LaunchScreen.storyboard in Resources */,
 				6EBAA40C1EE7E87A00898286 /* Assets.xcassets in Resources */,
 				6EBAA40A1EE7E87A00898286 /* Main.storyboard in Resources */,
+				6E6E72981EE915B500A7ABA5 /* f.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2245121EEA54AE00594F57 /* UIImage+PixelBuffer.swift in Sources */,
 				6EBAA4071EE7E87A00898286 /* ViewController.swift in Sources */,
+				6E7C58541EFCA82100935266 /* Resnet50.mlmodel in Sources */,
 				6EBAA4051EE7E87A00898286 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +434,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R6223ZBKTR;
 				INFOPLIST_FILE = "ML-ResNet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lohas.ML-ResNet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ML-ResNet/ML-ResNet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,10 +452,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R6223ZBKTR;
 				INFOPLIST_FILE = "ML-ResNet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lohas.ML-ResNet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ML-ResNet/ML-ResNet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -518,6 +542,7 @@
 				6EBAA42B1EE7E87B00898286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EBAA42C1EE7E87B00898286 /* Build configuration list for PBXNativeTarget "ML-ResNetTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				6EBAA42E1EE7E87B00898286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EBAA42F1EE7E87B00898286 /* Build configuration list for PBXNativeTarget "ML-ResNetUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +560,7 @@
 				6EBAA4311EE7E87B00898286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
